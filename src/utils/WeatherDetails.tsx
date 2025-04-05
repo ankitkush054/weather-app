@@ -2,10 +2,10 @@
 /** @format */
 
 import React from "react";
-import { LuEye, LuSunrise, LuSunset } from "react-icons/lu";
+import { LuEye } from "react-icons/lu";
 import { FiDroplet } from "react-icons/fi";
 import { MdAir } from "react-icons/md";
-import { ImMeter } from "react-icons/im";
+// import { ImMeter } from "react-icons/im";
 
 export interface WeatherDetailProps {
   visability: string;

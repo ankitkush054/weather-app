@@ -16,7 +16,8 @@ import { useAtom } from "jotai";
 import { useEffect, useState } from "react";
 
 import {  Text, Title, MantineProvider } from '@mantine/core';
-
+import CityForm from "@/components/CityForm";
+import CityList from "@/components/CityList";
 // import {Text}   from "@mantine/core";
 
 
@@ -202,6 +203,12 @@ export default function Home() {
           </Container>
         </section>
       </main>
+      <Container className="flex flex-wrap gap-4 px-4 items-center justify-center ml-100 bg-blue-100 w-full md:w-fit">
+
+      < CityForm/>
+      {/* <CityList/> */}
+      
+      </Container>
     </MantineProvider>
 
   <footer
